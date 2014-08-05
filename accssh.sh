@@ -50,7 +50,7 @@ ssh_consult()
 		-l ${user} -p${port} -i ${key} ${ip} ${query})"
 
 	echo "$exec_query"
-	exit 0
 }
 
 ssh_consult "$1" "$2"
+exit 0
